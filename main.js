@@ -16,4 +16,11 @@ console.log(what); // => Kingsroad
 //конкатенирование строки и одной переменной
 let first = 'Kings';
 let what1 = first + 'road\n';
-console.log(what1); // => Kingsroad
+console.log(what1); // => Kingsroad  
+
+//склеивание две переменные, в которых записаны строки:
+let first2 = 'Kings';
+let last2 = 'road';
+
+let what2 = first2 + last2;
+console.log(what2); // => Kingsroad
